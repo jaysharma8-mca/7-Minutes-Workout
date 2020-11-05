@@ -225,6 +225,7 @@
             android:background="@color/colorAccent"
             android:text="@string/calculate"
             android:textColor="#FFFFFF"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            android:onClick="calculateBmi"/>
     </LinearLayout>
 </RelativeLayout>
