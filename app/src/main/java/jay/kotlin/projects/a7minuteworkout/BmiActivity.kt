@@ -1,5 +1,6 @@
 package jay.kotlin.projects.a7minuteworkout
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_bmi.*
@@ -16,5 +17,12 @@ class BmiActivity : AppCompatActivity() {
         toolbar_bmi_activity.setNavigationOnClickListener {
             onBackPressed()
         }
+    }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
+        val intent = Intent(this, MainActivity::class.java)
+        startActivity(intent)
+        finishAffinity()
     }
 }
