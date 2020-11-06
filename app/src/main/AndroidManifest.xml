@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.7MinuteWorkout"
         tools:ignore="AllowBackup">
-
+        <activity android:name=".HistoryActivity"></activity>
         <activity
             android:name=".MainActivity"
             android:screenOrientation="portrait"
@@ -30,10 +30,10 @@
             android:name=".FinishActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-
-        <activity android:name=".BmiActivity"
+        <activity
+            android:name=".BmiActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme"/>
+            android:theme="@style/AppTheme" />
     </application>
 
 </manifest>
