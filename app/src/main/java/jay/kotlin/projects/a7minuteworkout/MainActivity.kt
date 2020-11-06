@@ -37,4 +37,10 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
         finishAffinity()
     }
+
+    fun historyActivity(view: View) {
+        val intent = Intent(this, HistoryActivity::class.java)
+        startActivity(intent)
+        finishAffinity()
+    }
 }
